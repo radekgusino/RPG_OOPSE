@@ -1,0 +1,8 @@
+#!/bin/bash
+g++ -c main.cpp
+g++ -c character.cpp
+g++ -c monsters.cpp
+g++ -c battleHistory.cpp
+g++ -c inventory.cpp
+g++ -o lab15 main.o character.o monsters.o battleHistory.o inventory.o
+echo 'compilation succesfull!'
